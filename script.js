@@ -32,8 +32,8 @@ for (let i = 0; i < numImages - 1; i += 2) {
     r.classList.remove('is-hidden');
 
     // Set the image and text.
-    l.querySelector('img').src = `images/img${i}.jpg`;
-    r.querySelector('img').src = `images/img${i + 1}.jpg`;
+    l.querySelector('img').src = `images/img${i}.JPG`;
+    r.querySelector('img').src = `images/img${i + 1}.JPG`;
     if (texts[i] === undefined || texts[i+1] === undefined) {
         break;
     }
